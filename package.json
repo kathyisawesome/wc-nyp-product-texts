@@ -1,0 +1,31 @@
+{
+  "name": "wc-nyp-product-texts",
+  "version": "1.0.0-beta-1",
+  "description": "Mini-extension to add custom Name Your Price text fields per product.",
+  "main": "index.js",
+  "dependencies": {
+    "wp-pot-cli": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "makepot": "wp-pot --src './*.php' --dest-file 'languages/wc-nyp-product-texts.pot' --package 'WC NYP Product Texts' --domain 'wc-nyp-product-texts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathyisawesome/wc-nyp-product-texts.git"
+  },
+  "keywords": [
+    "woocommerce",
+    "name",
+    "your",
+    "price",
+    "wordpress",
+    "plugins"
+  ],
+  "author": "Kathy Darling",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kathyisawesome/wc-nyp-product-texts/issues"
+  },
+  "homepage": "https://github.com/kathyisawesome/wc-nyp-product-texts#readme"
+}
